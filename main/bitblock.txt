@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jYxcZ1dDHH9dJHZjDm8RQA
-! Version: 202611120342
+! Checksum: zX+QrOXhAG0Q1O4VkHMOoA
+! Version: 202611130312
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Nov 2026 03:42 UTC
+! Last modified: 13 Nov 2026 03:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1166,7 +1166,7 @@ vashdosug.ru##.evt-sharing__share
 kp.kg,kp.kz,kp.ru,md.kp.media##.externalBlock > .left > span.title
 navitel.su##.extra_append:last-child
 47news.ru##.f-menu
-best-soft.net,hentasis1.top,prog-top.net##.f-mov-soc
+best-soft.net,hentasis.me,hentasis1.top,prog-top.net##.f-mov-soc
 gorod48.ru##.f-socia
 isport.ua##.f-social
 sports.kz##.f-social-div
@@ -2623,7 +2623,7 @@ liga.net##.tg-block
 inkorr.com##.tg-box
 08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,mangabuff.ru,modss1.com,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
 kiprinform.com##.tg-cta
-anifap.com,anifap.xyz##.tg-group
+anifap.com,anifap.xyz,hentasis.me##.tg-group
 moika78.ru##.tg-info-text
 click-or-die.ru##.tg-news-banner
 animeone.cc##.tg-popup-overlay
@@ -3522,7 +3522,7 @@ prozoro.net.ua#?#p:-abp-has(> .teaser_message_tg)
 dp73.spb.ru#?#p:-abp-has(> [alt^="Поделиться новостью"])
 ren.tv#?#p:-abp-has(> [href*="://max.ru/"])
 forklog.com#?#p:-abp-has(> a[href*="//telegram.me/"])
-onliner.by#?#p:-abp-has(> a[href*="://t.elegram.ru"])
+onliner.by#?#p:-abp-has(> a[href*="elegram."])
 kp.ru,sportsdaily.ru#?#p:-abp-has(> a[href^="https://max.ru/"])
 2bitcoins.ru,carakoom.com,cheline.com.ua,click-or-die.ru,cursorinfo.co.il,dailylviv.com,fakty.ua,forklog.com,ghall.com.ua,hardwareluxx.ru,kp40.ru,nsn.fm,opentv.media,progorod59.ru,progoroduhta.ru,ria-m.tv,sportkp.ru,sportsdaily.ru,stb.ua,vikna.tv#?#p:-abp-has(> a[href^="https://t.me/"])
 blitz.if.ua#?#p:-abp-has(> a[href^="https://web.telegram.org/"])
@@ -3576,7 +3576,7 @@ graniru.org##span.navbar-text
 gazeta.ua#?#span:-abp-contains(литись:)
 fontanka.ru#?#span:-abp-has(> [alt="Поделиться"])
 korrespondent.net#?#span:-abp-has(> em > a[href^="https://t.me/"])
-onliner.by#?#strong:-abp-has(> a[href*="://t.elegram.ru"])
+onliner.by#?#strong:-abp-has(> a[href*="elegram."])
 glavagronom.ru,glavpahar.ru,traktorist.ua##svg > path[fill][d^="M248"]
 glavagronom.ru,glavpahar.ru,traktorist.ua##svg > path[fill][d^="M444"]
 glavagronom.ru,glavpahar.ru,traktorist.ua##svg > path[fill][d^="M504"]
@@ -4593,6 +4593,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||sge-chat.skorpik.ru^
 ||shiza-project.com/assets/img/slider/
 ||shop.warforge.ru/rotation/
+||shuba.life/static/build/js/chunks/FixedVideo.*.js
 ||sichnews.ua/wp-content/plugins/userfeedback-lite/
 ||silver.ru/local/templates/index/img/12.png
 ||simpsonsua.tv/photos/1ban/
@@ -6007,6 +6008,7 @@ evribiont.xyz##.pop18
 gdz.ru,megaresheba.ru,spishi.fun##.popUp-subscribe
 calltouch.ru##.poppup-blocked
 vgoru.org##.popup--support
+megogo.net##.popup-21-consent
 forum.awd.ru##.popup-bg-wrapp
 pikabu.ru##.popup-button-promo
 svscompany.ru##.popup-policy
@@ -6393,6 +6395,7 @@ trymobile.ru##.txt[style="font-size: 13.5px !important;"]
 anticollector.biz.ua##.u-bottomFixer
 xn--90aivcdt6dxbc.xn--p1ai##.u-popup
 focus.ua##.u-unwrap
+uakino.best##.uakino-app-banner
 oriflame.ru##.ui-cookie-notification
 5lb.ru##.ui-notification-balloon
 fightnews.info##.ui-widget-overlay
@@ -6486,6 +6489,7 @@ livesport.ru##.zz_cars_twin
 mbclub.ru##[alt="Клубный сервис"]
 lelang.su##[alt="Пожертвовать"]
 24tv.ua##[app-google-source-button]
+uakino.best##[aria-label*="Android"][aria-label*="Smart TV"]
 fosshub.com##[aria-label="Advertisement"]
 v-variant.com.ua##[aria-label="Bookmark this post"]
 ixbt.com##[aria-label="cookieconsent"]
@@ -7703,17 +7707,22 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! косметические правила и скриплеты
 ! news
 www.onliner.by###js-pm > header [class]
+hentasis.me##+js(abort-on-property-read, ClickUndercookie)
 fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 catalog.onliner.by##.catalog-banner
 nv.ua##.main-wrapper .container > .row > a[target="_blank"] > picture
+hcdn.online,hencdn.top##.video-js > [class][role="status"][aria-live="polite"]
 sports.ru##[data-control="Common.RbPromo"]
 onliner.by##[data-placement]
 onliner.by##a[href*="betera-promo.by"]
+hentasis.me##body.playerCode > div[style^="position: absolute;"][onclick]
 rg.ru##div[class*="_"][class*="piegel"][class*="rapper"]:style(padding-top: 0 !important)
 !
 ! сетевые правила
 ! news
 .bid/vast/$third-party,xmlhttprequest
+@@||src.zakaz.atbmarket.com/cache/banners/banner_big_$image,domain=www.atbmarket.com
+||gc.onliner.by/js/growthbook-*.js
 ||strm.yandex.*/vh-adfo*-converted/$media
 ||ya.ru/adfox/
 !
