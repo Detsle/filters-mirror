@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w0h79rWSy6jgu3cFeR/uYg
-! Version: 202611230332
+! Checksum: jzsrryjT2RWRfULRKU0rZg
+! Version: 202611240644
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Nov 2026 03:32 UTC
+! Last modified: 24 Nov 2026 06:44 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4554,6 +4554,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||pcportal.org/js/test_base64.js
 ||peroxide.rambler.ru^$domain=mail.rambler.ru
 ||pickupforum.ru/public/textback_popup_
+||pikabu.ru/ajax.php?route=feeds/get-coupons-block
 ||pikabu.ru/ajax.php?route=recommendations/feed-block
 ||platform.twitter.com/widgets.js$domain=www.ukr.net
 ||play.google.com/*/badges/images/$domain=goloskarpat.info|imageban.ru
@@ -6090,6 +6091,7 @@ shazoo.ru##.promo-button
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.promo-carousel
 hotline.ua##.promo-list-item
 cont.ws##.promo-posts
+smotrim.ru##.promo-registration
 klerk.ru##.promoTop-promotion
 metro-cc.ru##.promobanners-middle
 24smi.org##.promocode-logo
@@ -7438,6 +7440,7 @@ ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##[class*="header"] > .yaplus
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##[class^="alice-fab"]
 dzen.ru##[class^="dzen-desktop--marketing-snackbar"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##[data-bem*="search-select-promo"]
+igromir.yandex.ru##[data-block-type="postBanner"]
 ya.ru##a[class*="doodle-link"]
 afisha.yandex.ru,afisha.yandex.*##.adfox_type_branding
 afisha.yandex.ru,afisha.yandex.*##.sidebar__yabs
@@ -7730,6 +7733,9 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+esports.ru#?#div:-abp-has(> img ~ a[href*="melbet.ru/"])
+sovsport.ru#?#ul[class*="_mediaList"] > li:-abp-has(a[href*="dzen.ru/"])
+!
 sdelanounas.ru###SocialWelcome
 kanobu.ru###__next > div > .bg-background > section[aria-label]
 shedevrum.ai###app > [class*="center"] > div[class]:style(height: unset !important)
