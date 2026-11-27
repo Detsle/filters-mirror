@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bowj8fju+hUTWxlakxARBQ
-! Version: 202611260502
+! Checksum: ZYVyZCNq6EcocI5Iveu1+Q
+! Version: 202611270452
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Nov 2026 05:02 UTC
+! Last modified: 27 Nov 2026 04:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1924,6 +1924,7 @@ fbc.biz.ua##.post_subscribe
 winreview.ru##.postmeta + noindex
 iphones.ru##.postpage_telega
 kraj.by##.preheader-social
+profinance.ru##.press-subscriptions
 kurkul.com##.prices-widget
 planetazdorovo.ru##.product-detail-share
 metro-cc.ru##.product-page-social
@@ -2581,7 +2582,7 @@ animestars.ru,ruinformer.com##.telega
 mskgazeta.ru##.telega_box
 banki.ua##.telegatestbox
 bfm.ru,business-gazeta.ru,calend.ru,city-n.ru,fakty.ua,frankmedia.ru,gordonua.com,gorodkiev.com.ua,hvylya.net,kinogo.biz,kinoukr.com,meteonova.ru,mi100.info,novostivmire.com,sakhaday.ru,seralityt.online,serialstuts.online,sfera.fm,sport.ua,uaserials.com,uaserials.my,usionline.com,vseseriipodriad.ru,womanhit.ru,zaborona.com,zn.ua##.telegram
-rsload.net,securitylab.ru,spot.uz,uatv.ua##.telegram-block
+securitylab.ru,spot.uz,uatv.ua##.telegram-block
 anifap.com,anifap.xyz,proglib.io##.telegram-btn
 km.ru,kniga-online.com##.telegram-button
 informburo.kz##.telegram-card
@@ -3138,7 +3139,6 @@ zn.ua##aside > .content-title:nth-child(-n+3)
 versii.if.ua#?#aside > .fb-post-arc-one__section:-abp-has(> .brxe-social-icons)
 rifme.net##aside > .marginTop
 findhow.org##aside > .rightBoxtumb:first-child
-rsload.net#?#aside > .side-box:-abp-has(> div > #vk_groups)
 gtmods.ru#?#aside > .side-bx:-abp-has(> center > a[target="_blank"])
 enthub.it##aside > .sticky > div > div:last-child > div:first-child
 potokmedia.ru##aside > .textwidget
@@ -3912,6 +3912,7 @@ _userbar_$image
 ##.user_signature img
 ##.usersig img
 ##.youtube_box
+ru##[data-ns-portal] .nps-widget
 ru##[data-ns-portal] [data-bell-btn] > div[class*="animated"]
 ru##[data-ns-portal] [data-test="top-comment-user"] > .textBox_hjmay > .username_hjmay > div[class^="wrapper_"] > div[class^="wrapper_"]
 ru##[data-ns-portal] div[class^="mobileApps_"]
@@ -4806,10 +4807,6 @@ altapress.ru###discountsCont
 megafon.ru###divBanner > a[href*=".megafon.ru/"]
 trashbox.ru###div_bottom_subscribe_placeholder
 7ya.ru###divnavbutton
-rsload.net#?##dle-content > .short:-abp-has(> .short-top > h2 > a > .fa)
-rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href*="oleg-prognoz.html"])
-rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/news/"][href*="skidk"])
-rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/soft/obzor/"])
 anitube.in.ua###dle-content > noindex
 lols.ru###dle-content td[style="padding-left:20px;"] > noindex
 varianty.lviv.ua###donate-popup
@@ -6067,7 +6064,6 @@ jut-su.net##.prembn
 textstudio.co##.premium-banner
 aniqit.com,kodik.cc,kodik.info,kodikdb.com,kodikplayer.com##.preview-confirmation
 aniqit.com,kodik.cc,kodik.info,kodikdb.com,kodikplayer.com##.preview-min-age-confirmation
-rsload.net##.prfl
 nv.ua##.print_magazine_promo
 kinoafisha.ua##.privacy-modal
 uatv.ua##.privacy-policy-block
@@ -6653,7 +6649,6 @@ point.md##a[href*="/meteo/"] ~ .active a[href*="://sales.simpals.com/"] ~ div
 poltavawave.com.ua,sil.media##a[href*="/pidtrimai-pravd"]
 kp.by,kp.kg,kp.kz,kp.ru,md.kp.media##a[href*="/podpiska/"]
 mmr.net.ua,my.rv.ua,rivne.media,vsviti.com.ua##a[href*="/support"][target="_blank"]
-rsload.net##a[href*="/tutvce.html"]
 freesoft.ru##a[href*="/yandex-browser.html"]
 finobzor.ru,politobzor.net,warfiles.ru##a[href*="://auction.vo-media.ru/"]
 itcrowd.top##a[href*="://donate.stream/"]
@@ -7631,6 +7626,7 @@ www.kinopoisk.ru##iframe[src*="kinopoisk-ru.clstorage.net/"]
 mail.*##.tv-widget [class^="vk-video"]
 mail.*##.tv-widget [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
+mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > div[class*="search"] ~ div[class$="-portal"]
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ [class]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
@@ -7734,7 +7730,29 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+7kanal.co.il##.banner-top
+rutube.ru##.cookie-snackbar-module__snackbar
+popcornnews.ru##.horizontal-banner
+profinance.ru##.middle > .right
+profinance.ru##.press-inline-ad
+rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
+7kanal.co.il##.taboola
+popcornnews.ru##.vertical-banner
+rutube.ru##.wdp-system-notifications-toaster-module__root
+gamegpu.com,overclockers.ua##a[href*="://allo.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://citrus.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://click.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://comfy.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://elmir.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://epicentrk.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://ktc.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://microtron.ua/"]:style(pointer-events: none !important; color: inherit !important)
+profinance.ru##a[href*="?erid="]
+gamegpu.com,overclockers.ua##a[href*="foxtrot.com.ua/"]:style(pointer-events: none !important; color: inherit !important)
+profinance.ru##aside[aria-label="Реклама"]
+radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"] > aside
 igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
+kinozal.cloudns.nz##div[style="position: absolute; z-index: 99999"]
 liveball.*##+js(prevent-addEventListener, click, excluded)
 liveball.sx,liveball.*##.home-hero__chips
 liveball.sx,liveball.*##.home-seo
@@ -7744,11 +7762,7 @@ liveball.sx,liveball.*##body > div[id]:not([class]):not([style])
 liveball.sx,liveball.*##body > div[id][class][style^="display:"][style*="block"]
 liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> a[target="_blank"])
 liveball.sx,liveball.*#?#.sm-card:-abp-has(> a[target="_blank"])
-popcornnews.ru##.horizontal-banner
-popcornnews.ru##.vertical-banner
-rutube.ru##.cookie-snackbar-module__snackbar
-rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
-rutube.ru##.wdp-system-notifications-toaster-module__root
+profinance.ru##main.markets-layout > .content-grid > aside
 !
 ! сетевые правила
 ! news
@@ -7756,6 +7770,10 @@ rutube.ru##.wdp-system-notifications-toaster-module__root
 ||cdn.lbs.pw/st/
 ||lbs.pw/liveball/img/bc/
 ||lbs.pw/liveball/img/brand
+||profinance.ru/*/embed.js
+||profinance.ru/adv/
+||profinance.ru/js/pf_hb.js
+||profinance.ru/js/tgbnr.js
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
@@ -18757,6 +18775,7 @@ _social_footer_
 ##a[href^="https://www.facebook.com/share.php?"]
 ##a[href^="https://www.facebook.com/sharer.php?"]
 ##a[href^="https://www.facebook.com/sharer/sharer.php"]
+##a[href^="https://www.facebook.com/sharer?"]
 ##a[href^="https://www.google.com/preferences/source?q="]
 ##a[href^="https://www.linkedin.com/cws/share?"]
 ##a[href^="https://www.linkedin.com/shareArticle?"]
